@@ -1,0 +1,14 @@
+{
+  "name": "github-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GitHub — list repos, view diffs, create PRs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  }
+}
