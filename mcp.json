@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "--env-file=/Users/name/Downloads/proj/.env",
+        "/Users/name/Downloads/proj/index.js"
+      ]
+    }
+  }
+}

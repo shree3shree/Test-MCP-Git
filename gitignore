@@ -1,0 +1,5 @@
+node_modules/
+
+# Ignore mcp.json if you hardcode your token in it.
+# Remove this line if you use ${env:GITHUB_TOKEN} instead.
+.vscode/mcp.json
