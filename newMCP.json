@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/absolute/path/to/github-mcp/index.js"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_your_token_here",
+        "GITHUB_HOST": "ghe.infra.something.some.com"
+      }
+    }
+  }
+}
